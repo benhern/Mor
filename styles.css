@@ -168,7 +168,7 @@ i:hover {
 }
 
 /* Maximum width */
-@media (max-width: 1440px) {
+@media (width: 1440px) {
   .position {
     margin-right: 50%;
     margin-bottom: 20%;
@@ -206,7 +206,7 @@ i:hover {
     font-size: 60px;
   }
 }
-@media (width: 425px) {
+@media (max-width: 425px) and (min-width: 413px){
   .position {
     margin-right: 50%;
     margin-bottom: 153%;
@@ -248,7 +248,7 @@ i:hover {
   }
 }
 
-@media (width: 375px) {
+@media (min-width: 360px) and (max-width: 393px)  {
   .position {
     margin-right: 50%;
     margin-bottom: 173%;
