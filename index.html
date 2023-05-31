@@ -15,18 +15,6 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
 
     <!-- google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap"
-      rel="stylesheet"
-    />
 
     <!--FontAwesome-->
     <link
@@ -36,180 +24,47 @@
   </head>
 
   <body>
-    <ul class="nav sticky-top">
-      <li class="nav-item">
-        <img
-          id="logo"
-          src="https://static.wixstatic.com/media/fd6eba_78c80b5d0b044a2ba54e4803007e14aa~mv2.png/v1/crop/x_41,y_0,w_245,h_245/fill/w_343,h_343,al_c,lg_1,q_85,enc_auto/fd6eba_78c80b5d0b044a2ba54e4803007e14aa~mv2.png
-                    "
-          alt="Mor Athletic Logo"
-          width="70px"
-          height="70px"
-        />
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Socials</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
-    </ul>
-
-    <div class="d-flex justify-content-start">
-      <div class="carousel-caption position">
-        Be<br />
-        Mor
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: rgba(0, 128, 0, 0.7)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
 
-      <div class="carousel-caption position2">Athletic</div>
-
+    <div class="container text-center">
       <img
-        class="img-fluid"
-        src="https://static.wixstatic.com/media/fd6eba_982b1c86348c4bd7b48effefa2c8505d~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_2778,h_1908,al_b,q_90,usm_0.66_1.00_0.01,enc_auto/fd6eba_982b1c86348c4bd7b48effefa2c8505d~mv2_d_5184_3456_s_4_2.jpg"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/1566px-Test-Logo.svg.png?20150906031702"
         alt=""
       />
-    </div>
-
-    <!-- <div class="container main-img">
-
-      </div> -->
-
-    <div class="sections" id="info">
-      <div class="info-text">
-        <h1>About Us</h1>
-
-        <div class="about-divs">
-          <i class="fa-solid fa-dumbbell fa-4x"></i>
-          <p>
-            We are a fitness company that
-            <span class="highlights">focuses on your fitness goals!</span> At
-            Mor Athletic, we offer fitness services in the city of Chicago that
-            range from
-            <span class="highlights"
-              >Personal Training, Group Fitness, Sports Training and Yoga at the
-              convenience of our clients</span
-            >.
-          </p>
-        </div>
-
-        <div class="about-divs">
-          <i class="fa-solid fa-house-laptop fa-4x"></i>
-          <p>
-            Reaching your goal is our commitment and mission. To make this
-            possible for our clients,
-            <span class="highlights"
-              >we offer training at our clients' homes, at partnership gyms, and
-              even outdoors!</span
-            >
-          </p>
-        </div>
-
-        <div class="about-divs">
-          <i class="fa-solid fa-ranking-star fa-4x"></i>
-          <p>
-            Allow us to help you reach your goals. We want you to push your
-            limits. We want to give you confidence in your strength.
-            <span class="highlights">We want you to become MOR ATHLETIC!</span>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="sections" id="trainer">
-      <h1>Trainers</h1>
-      <div class="trainer-text">
-        <div class="card reveal mb-4 mt-4" style="max-width: 660px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="https://static.wixstatic.com/media/fd6eba_5fb8e13d47e443ee91429f4260b4ac51~mv2_d_3888_2592_s_4_2.jpg/v1/crop/x_722,y_431,w_2282,h_1854/fill/w_594,h_482,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/fd6eba_5fb8e13d47e443ee91429f4260b4ac51~mv2_d_3888_2592_s_4_2.jpg"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">John Morales</h5>
-                <p class="card-text">Some insipration quote/about themselves</p>
-                <p class="card-text">
-                  <small class="text-muted"
-                    >Qualifications: BA Sport Management, NFPT Certified, IHSA
-                    Certified, CrossFit Level 1 Trainer</small
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card reveal mb-4" style="max-width: 660px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="https://static.wixstatic.com/media/fd6eba_95407ad07c244df58af3e51a15ef2ed6~mv2_d_3888_2592_s_4_2.jpg/v1/crop/x_413,y_138,w_3061,h_2454/fill/w_604,h_482,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/fd6eba_95407ad07c244df58af3e51a15ef2ed6~mv2_d_3888_2592_s_4_2.jpg"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Tony Morales</h5>
-                <p class="card-text">Some insipration quote/about themselves</p>
-                <p class="card-text">
-                  <small class="text-muted"
-                    >Qualifications: NASM Certified</small
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card reveal mb-3" style="max-width: 660px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="https://static.wixstatic.com/media/fd6eba_575d910296ec434887d59b4185426440~mv2_d_3888_2592_s_4_2.jpg/v1/crop/x_354,y_0,w_3190,h_2592/fill/w_594,h_482,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/fd6eba_575d910296ec434887d59b4185426440~mv2_d_3888_2592_s_4_2.jpg"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Charles Clevenger</h5>
-                <p class="card-text">Some insipration quote/about themselves</p>
-                <p class="card-text">
-                  <small class="text-muted"
-                    >Qualifications: NASM Certified</small
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sections" id="prices">
-      <p>prices</p>
-    </div>
-
-    <div class="sections" id="testimonials">
-      <p>testimonials</p>
-    </div>
-
-    <div class="sections" id="social">
-      <p>social</p>
-    </div>
-
-    <div class="sections" id="contact-us">
-      <p>contact us</p>
+      <h1>This is a responsive test</h1>
+      <h1>This is a responsive test</h1>
+      <h1>This is a responsive test</h1>
     </div>
 
     <script src="app.js" charset="utf-8"></script>
